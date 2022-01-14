@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+}
+.end{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aquamarine;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#2a9d8f 0%,#bb3e03 100%);
+        display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2px;
+    font-family: 'Lato',sans-serif;
+    font-weight: bolder;
+        
+}
+#name{
+    font-size: 30px;
+    line-height: 1.2px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.2px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.project{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+        font-size:20px;
+    line-height: 1.3;
+}
+.line{
+    height:6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index:10;
+    cursor: pointer;
+}
+.items{
+    float: left;
+    color: darkkhaki;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: inherit;
+    font-size: 20px;
+}
+.items:hover{
+    background-color:mediumaquamarine;
+}
+        
